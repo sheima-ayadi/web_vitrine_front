@@ -64,17 +64,7 @@ function animateCounters() {
 }
 
 // ─── FORM SUBMIT ───
-function handleSubmit() {
-  const btn = document.querySelector('#page-contact .btn-primary');
-  if (btn) {
-    btn.textContent = '✅ Message envoyé !';
-    btn.style.background = 'linear-gradient(135deg,#00c888,#0077ff)';
-    setTimeout(() => {
-      btn.textContent = 'Envoyer ma Demande →';
-      btn.style.background = '';
-    }, 3000);
-  }
-}
+
 
 // ─── INIT ───
 document.addEventListener('DOMContentLoaded', () => {
